@@ -32,7 +32,116 @@
  *
  */
 
- #include <openthread/config.h>
- #include <openthread/platform/alarm-milli.h>
- #include <openthread/platform/diag.h>
- #include <openthread/platform/radio.h>
+#include <openthread/config.h>
+#include <openthread/platform/alarm-milli.h>
+#include <openthread/platform/diag.h>
+#include <openthread/platform/radio.h>
+
+
+otRadioCaps otPlatRadioGetCaps(otInstance *aInstance){
+
+}
+
+int8_t otPlatRadioGetReceiveSensitivity(otInstance *aInstance){
+
+}
+
+void otPlatRadioGetIeeeEui64(otInstance *aInstance, uint8_t *aIeeeEui64){
+
+}
+
+void otPlatRadioSetPanId(otInstance *aInstance, otPanId aPanId){
+
+}
+
+void otPlatRadioSetExtendedAddress(otInstance *aInstance, const otExtAddress *aExtAddress){
+
+}
+
+void otPlatRadioSetShortAddress(otInstance *aInstance, otShortAddress aShortAddress){
+
+}
+
+otError otPlatRadioGetTransmitPower(otInstance *aInstance, int8_t *aPower){
+
+}
+
+otError otPlatRadioSetTransmitPower(otInstance *aInstance, int8_t aPower){
+
+}
+
+otError otPlatRadioGetCcaEnergyDetectThreshold(otInstance *aInstance, int8_t *aThreshold){
+
+}
+
+otError otPlatRadioSetCcaEnergyDetectThreshold(otInstance *aInstance, int8_t aThreshold){
+
+}
+
+bool otPlatRadioGetPromiscuous(otInstance *aInstance){
+
+}
+
+void otPlatRadioSetPromiscuous(otInstance *aInstance, bool aEnable){
+
+}
+
+otError otPlatRadioEnable(otInstance *aInstance){
+
+}
+
+otError otPlatRadioDisable(otInstance *aInstance){
+
+}
+
+bool otPlatRadioIsEnabled(otInstance *aInstance){
+
+}
+
+otError otPlatRadioSleep(otInstance *aInstance){
+
+}
+
+otError otPlatRadioReceive(otInstance *aInstance, uint8_t aChannel){
+
+}
+
+otRadioFrame *otPlatRadioGetTransmitBuffer(otInstance *aInstance){
+
+}
+
+otError otPlatRadioTransmit(otInstance *aInstance, otRadioFrame *aFrame){
+
+}
+
+int8_t otPlatRadioGetRssi(otInstance *aInstance){
+
+}
+
+otError otPlatRadioEnergyScan(otInstance *aInstance, uint8_t aScanChannel, uint16_t aScanDuration){
+
+}
+
+otError otPlatRadioAddSrcMatchShortEntry(otInstance *aInstance, otShortAddress aShortAddress){
+
+}
+
+otError otPlatRadioAddSrcMatchExtEntry(otInstance *aInstance, const otExtAddress *aExtAddress){
+
+}
+
+otError otPlatRadioClearSrcMatchShortEntry(otInstance *aInstance, otShortAddress aShortAddress){
+
+}
+
+otError otPlatRadioClearSrcMatchExtEntry(otInstance *aInstance, const otExtAddress *aExtAddress){
+
+}
+
+void otPlatRadioClearSrcMatchShortEntries(otInstance *aInstance){
+
+}
+
+void otPlatRadioClearSrcMatchExtEntries(otInstance *aInstance){
+  
+}
