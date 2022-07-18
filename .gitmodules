@@ -1,0 +1,6 @@
+[submodule "openthread"]
+	path = openthread
+	url = https://github.com/openthread/openthread.git
+[submodule "third_party/bl_mcu_sdk"]
+	path = third_party/bl_mcu_sdk
+	url = git@github.com:bouffalolab/bl_mcu_sdk.git
