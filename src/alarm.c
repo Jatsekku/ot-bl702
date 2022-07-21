@@ -38,6 +38,7 @@
 #include <openthread/config.h>
 #include <openthread/platform/alarm-milli.h>
 #include <openthread/platform/diag.h>
+#include "bflb_platform.h"
 
 #define OT_ALARM_MS_TO_US (1000U)
 
