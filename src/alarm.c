@@ -40,6 +40,7 @@
 #include <openthread/platform/alarm-milli.h>
 #include <openthread/platform/diag.h>
 
+
 #define OT_ALARM_MS_TO_US (1000U)
 
 static uint32_t ot_alarm_T0;
