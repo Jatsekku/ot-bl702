@@ -35,18 +35,90 @@
 #include <stdbool.h>
 #include <stdint.h>
 
+#include "bflb_platform.h"
 #include <openthread/config.h>
 #include <openthread/platform/alarm-milli.h>
 #include <openthread/platform/diag.h>
 
+
+#define OT_ALARM_MS_TO_US (1000U)
+
+static uint32_t ot_alarm_T0;
+static uint32_t ot_alarm_Dt;
+static uint32_t ot_alarm_msCnt;
+static bool     ot_alarm_isRunning;
+
+static void ot_alarm_timerCallback();
+
+void ot_alarm_init()
+{
+    ot_alarm_T0        = 0;
+    ot_alarm_Dt        = 0;
+    ot_alarm_msCnt     = 0;
+    ot_alarm_isRunning = false;
+    bflb_platform_set_alarm_time(OT_ALARM_MS_TO_US, ot_alarm_timerCallback);
+}
+
+void ot_alarm_step(otInstance *aInstance)
+{
+    uint32_t timeThld = ot_alarm_T0 + ot_alarm_Dt;
+    bool     fire     = false;
+    if (false != ot_alarm_isRunning)
+    {
+        if (ot_alarm_T0 <= ot_alarm_msCnt)
+        {
+            if (timeThld >= ot_alarm_T0 && timeThld <= ot_alarm_msCnt)
+            {
+                fire = true;
+            }
+        }
+        else
+        {
+            if (timeThld >= ot_alarm_T0 || timeThld <= ot_alarm_msCnt)
+            {
+                fire = true;
+            }
+        }
+
+        if (fire)
+        {
+            ot_alarm_isRunning = false;
+#if OPENTHREAD_CONFIG_DIAG_ENABLE
+
+            if (otPlatDiagModeGet())
+            {
+                otPlatDiagAlarmFired(aInstance);
+            }
+            else
+#endif
+            {
+                otPlatAlarmMilliFired(aInstance);
+            }
+        }
+    }
+}
+
 void otPlatAlarmMilliStartAt(otInstance *aInstance, uint32_t aT0, uint32_t aDt)
 {
+    OT_UNUSED_VARIABLE(aInstance);
+
+    ot_alarm_isRunning = true;
+    ot_alarm_T0        = aT0;
+    ot_alarm_Dt        = aDt;
 }
 
 void otPlatAlarmMilliStop(otInstance *aInstance)
 {
+    OT_UNUSED_VARIABLE(aInstance);
+    ot_alarm_isRunning = false;
 }
 
 uint32_t otPlatAlarmMilliGetNow(void)
 {
+    return ot_alarm_msCnt;
+}
+
+static void ot_alarm_timerCallback()
+{
+    ot_alarm_msCnt++;
 }
