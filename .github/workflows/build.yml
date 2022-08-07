@@ -62,28 +62,19 @@ jobs:
       run: |
         script/make-pretty check
 
-  bl702-cli:
-   runs-on: ubuntu-20.04
-   steps:
-   - uses: actions/checkout@v2
-     with:
-       submodules: recursive
-   - name: Bootstrap
-     run: |
-       sudo apt update
-       sudo apt-get install -y git wget make
-   - name: Set up cmake
-     run: |
-       wget -c https://cmake.org/files/v3.19/cmake-3.19.3-Linux-x86_64.tar.gz
-       tar -zxvf cmake-3.19.3-Linux-x86_64.tar.gz
-       sudo cp -rf cmake-3.19.3-Linux-x86_64 /usr/bin
-       export PATH="$PATH:/usr/bin/cmake-3.19.3-Linux-x86_64/bin"
-   - name: Set up risc-v toolchain
-     run: |
-       cd ~
-       git clone https://gitee.com/bouffalolab/toolchain_gcc_sifive_linux
-       sudo cp -rf toolchain_gcc_sifive_linux /usr/bin
-       export PATH="$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin"
-   - name: Build
-     run: |
-       script/check-bl702-build
+  riscv-gcc:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+
+    - name: Bootstrap
+      run: |
+        sudo apt update
+        sudo apt-get install -y git wget make
+        script/bootstrap
+
+    - name: Build
+      run: |
+        script/check-bl702-build
