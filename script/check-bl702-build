@@ -33,10 +33,10 @@ build_hello_world()
 {
     export PATH=\"$PATH:/usr/bin/cmake-3.19.3-Linux-x86_64/bin\"
     export PATH=\"$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin\"
-    echo $PWD
-    echo $PATH
+    pwd
+    ls
     cd third_party/bl_mcu_sdk
-    echo $(ls /usr/bin/toolchain_gcc_sifive_linux/bin)
+    ls
     make build APP=helloworld
     cd -
 }
@@ -44,7 +44,7 @@ build_hello_world()
 build_ble_example()
 {
     echo $PWD
-    cd third_party/bl_mcu_sdk
+    cd ../third_party/bl_mcu_sdk
     make build BOARD=bl702_iot APP=ble_peripehral
     cd -
 }
@@ -52,7 +52,7 @@ build_ble_example()
 main()
 {
     build_hello_world
-    build_ble_example
+    #build_ble_example
 }
 
 main
