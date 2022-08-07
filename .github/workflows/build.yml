@@ -65,7 +65,7 @@ jobs:
   bl702-cli:
    runs-on: ubuntu-20.04
    steps:
-   - uses: rokroskar/workflow-run-cleanup-action@master
+   - uses: actions/checkout@v2
    - name: Bootstrap
      run: |
        sudo apt update
