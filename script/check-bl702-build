@@ -31,6 +31,8 @@ set -euxo pipefail
 
 build_hello_world()
 {
+    export PATH=\"$PATH:/usr/bin/cmake-3.19.3-Linux-x86_64/bin\"
+    export PATH=\"$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin\"
     echo $PWD
     echo $PATH
     cd third_party/bl_mcu_sdk
