@@ -80,8 +80,8 @@ jobs:
      run: |
        cd ~
        git clone https://gitee.com/bouffalolab/toolchain_gcc_sifive_linux
-       sudo cp -rf toolchain_gcc_t-head_linux  /usr/bin
-       export PATH=\"$PATH:/usr/bin/toolchain_gcc_t-head_linux/bin\"
+       sudo cp -rf toolchain_gcc_sifive_linux  /usr/bin
+       export PATH=\"$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin\"
    - name: Build
      run: |
        script/check-bl702-build
