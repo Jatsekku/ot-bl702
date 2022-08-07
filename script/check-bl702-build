@@ -31,14 +31,18 @@ set -euxo pipefail
 
 build_hello_world()
 {
-    cd third_party/bl_mcu_sdk
+    echo $PWD
+    cd ../third_party/bl_mcu_sdk
     make build BOARD=bl702_iot APP=helloworld
+    cd -   
 }
 
 build_ble_example()
 {
-    cd third_party/bl_mcu_sdk
+    echo $PWD
+    cd ../third_party/bl_mcu_sdk
     make build BOARD=bl702_iot APP=ble_peripehral
+    cd -
 }
 
 main()
