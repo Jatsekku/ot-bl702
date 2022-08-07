@@ -71,19 +71,19 @@ jobs:
    - name: Bootstrap
      run: |
        sudo apt update
-       sudo apt-get install -y gcc git wget make
+       sudo apt-get install -y git wget make
    - name: Set up cmake
      run: |
        wget -c https://cmake.org/files/v3.19/cmake-3.19.3-Linux-x86_64.tar.gz
        tar -zxvf cmake-3.19.3-Linux-x86_64.tar.gz
-       sudo cp -rf cmake-3.19.3-Linux-x86_64  /usr/bin
-       export PATH=\"$PATH:/usr/bin/cmake-3.19.3-Linux-x86_64/bin\"
+       sudo cp -rf cmake-3.19.3-Linux-x86_64 /usr/bin
+       export PATH="$PATH:/usr/bin/cmake-3.19.3-Linux-x86_64/bin"
    - name: Set up risc-v toolchain
      run: |
        cd ~
        git clone https://gitee.com/bouffalolab/toolchain_gcc_sifive_linux
-       sudo cp -rf toolchain_gcc_sifive_linux  /usr/bin
-       export PATH=\"$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin\"
+       sudo cp -rf toolchain_gcc_sifive_linux /usr/bin
+       export PATH="$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin"
    - name: Build
      run: |
        script/check-bl702-build

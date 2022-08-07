@@ -43,7 +43,7 @@ build_ble_example()
     export PATH="$PATH:/usr/bin/cmake-3.19.3-Linux-x86_64/bin"
     export PATH="$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin"
     cd third_party/bl_mcu_sdk
-    make build BOARD=bl702_iot APP=ble_peripehral
+    make build BOARD=bl702_iot APP=ble_peripheral
     cd -
 }
 

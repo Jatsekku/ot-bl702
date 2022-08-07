@@ -29,4 +29,15 @@
 
 set -euxo pipefail
 
-"$(dirname "$0")"/../openthread/script/bootstrap
+main()
+{
+    echo "Bootstrapping openthread"
+    "$(dirname "$0")"/../openthread/script/bootstrap
+
+    echo "Bootstrapping openthread"
+    "$(dirname "$0")"/bootstrap_bl_sdk
+
+    echo "Bootstrap completed successfully."
+}
+
+main
