@@ -36,9 +36,9 @@ build_hello_world()
     echo $PWD
     echo $PATH
     cd third_party/bl_mcu_sdk
-    echo $(ls)
-    make build BOARD=bl702_iot APP=helloworld
-    cd -   
+    echo $(ls /usr/bin/toolchain_gcc_sifive_linux/bin)
+    make build APP=helloworld
+    cd -
 }
 
 build_ble_example()
