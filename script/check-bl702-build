@@ -47,8 +47,8 @@ build_ble_example()
 
 main()
 {
-    build_hello_world()
-    build_ble_example()
+    build_hello_world
+    build_ble_example
 }
 
 main
