@@ -2,7 +2,7 @@
 
 setup_gcc_sifive()
 {
-    cd ~
+    cd ~ || exit
     git clone https://gitee.com/bouffalolab/toolchain_gcc_sifive_linux
     sudo cp -rf toolchain_gcc_sifive_linux /usr/bin
     export PATH="$PATH:/usr/bin/toolchain_gcc_sifive_linux/bin"
