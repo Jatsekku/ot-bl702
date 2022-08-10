@@ -1,0 +1,393 @@
+The target system is: Generic - 1 - RISCV
+The host system is: Linux - 5.15.38-1-lts - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jatsekku/Documents/ot-bl702/build/CMakeFiles/3.23.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jatsekku/Documents/ot-bl702/build/CMakeFiles/3.23.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jatsekku/Documents/ot-bl702/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1540d && [1/2] Building C object CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-gcc
+Target: riscv64-unknown-elf
+Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c,c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany'
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/cc1 -quiet -v -imultilib rv64imafdc/lp64d -iprefix /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/ -isysroot /usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64imafdc -mabi=lp64d -march=rv64imafdc -auxbase-strip CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccx1DBZt.s
+GNU C17 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include"
+ignoring nonexistent directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/usr/local/include"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include
+End of search list.
+GNU C17 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 60d252ed314f9b710cd503352129ad1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/as -v --traditional-format -march=rv64imafdc -march=rv64imafdc -mabi=lp64d -o CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj /tmp/ccx1DBZt.s
+GNU assembler version 2.35 (riscv64-unknown-elf) using BFD version (SiFive Binutils-Metal 2.35.0-2020.12.8) 2.35
+COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+[2/2] Linking C executable cmTC_1540d
+Using built-in specs.
+COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-gcc
+COLLECT_LTO_WRAPPER=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper
+Target: riscv64-unknown-elf
+Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c,c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany'
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) 
+COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1540d' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/collect2 -plugin /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/liblto_plugin.so -plugin-opt=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE4snwk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_1540d /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0 -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1540d' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include]
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed]
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include]
+  end of search list found
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include]
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed]
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include]
+  implicit include dirs: [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jatsekku/Documents/ot-bl702/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_1540d && [1/2] Building C object CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-gcc]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany']
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/cc1 -quiet -v -imultilib rv64imafdc/lp64d -iprefix /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/ -isysroot /usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=rv64imafdc -mabi=lp64d -march=rv64imafdc -auxbase-strip CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccx1DBZt.s]
+  ignore line: [GNU C17 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: 60d252ed314f9b710cd503352129ad1f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/as -v --traditional-format -march=rv64imafdc -march=rv64imafdc -mabi=lp64d -o CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj /tmp/ccx1DBZt.s]
+  ignore line: [GNU assembler version 2.35 (riscv64-unknown-elf) using BFD version (SiFive Binutils-Metal 2.35.0-2020.12.8) 2.35]
+  ignore line: [COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  ignore line: [[2/2] Linking C executable cmTC_1540d]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany']
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) ]
+  ignore line: [COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1540d' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  link line: [ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/collect2 -plugin /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/liblto_plugin.so -plugin-opt=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE4snwk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_1540d /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0 -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccE4snwk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1540d] ==> ignore
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o] ==> obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o]
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o] ==> obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib]
+    arg [CMakeFiles/cmTC_1540d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o] ==> obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+  collapse obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o]
+  collapse obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o]
+  collapse obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib]
+  implicit libs: [gcc;c;gloss;gcc]
+  implicit objs: [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+  implicit dirs: [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0;/usr/bin/riscv64_gcc_sifive/lib/gcc;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jatsekku/Documents/ot-bl702/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_39644 && [1/2] Building CXX object CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-g++
+Target: riscv64-unknown-elf
+Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c,c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany'
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/cc1plus -quiet -v -imultilib rv64imafdc/lp64d -iprefix /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/ -isysroot /usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64imafdc -mabi=lp64d -march=rv64imafdc -auxbase-strip CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccekxafA.s
+GNU C++14 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/backward"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include"
+ignoring nonexistent directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/usr/local/include"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include"
+ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/backward
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include
+End of search list.
+GNU C++14 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: 791c50c20806655646fdbfc3c3b338d7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/as -v --traditional-format -march=rv64imafdc -march=rv64imafdc -mabi=lp64d -o CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccekxafA.s
+GNU assembler version 2.35 (riscv64-unknown-elf) using BFD version (SiFive Binutils-Metal 2.35.0-2020.12.8) 2.35
+COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+[2/2] Linking CXX executable cmTC_39644
+Using built-in specs.
+COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-g++
+COLLECT_LTO_WRAPPER=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper
+Target: riscv64-unknown-elf
+Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c,c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany'
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) 
+COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39644' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/collect2 -plugin /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/liblto_plugin.so -plugin-opt=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGuDeoy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_39644 /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0 -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39644' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0]
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d]
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/backward]
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include]
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed]
+    add: [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include]
+  end of search list found
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include/c++/10.2.0]
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d]
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/backward] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include/c++/10.2.0/backward]
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include]
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed]
+  collapse include dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include]
+  implicit include dirs: [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include/c++/10.2.0;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include/c++/10.2.0/backward;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jatsekku/Documents/ot-bl702/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_39644 && [1/2] Building CXX object CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-g++]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany']
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/cc1plus -quiet -v -imultilib rv64imafdc/lp64d -iprefix /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/ -isysroot /usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=rv64imafdc -mabi=lp64d -march=rv64imafdc -auxbase-strip CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccekxafA.s]
+  ignore line: [GNU C++14 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/../../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv64imafdc/lp64d]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include/c++/10.2.0/backward]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed]
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (SiFive GCC-Metal 10.2.0-2020.12.8) version 10.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: 791c50c20806655646fdbfc3c3b338d7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  ignore line: [ /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/as -v --traditional-format -march=rv64imafdc -march=rv64imafdc -mabi=lp64d -o CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccekxafA.s]
+  ignore line: [GNU assembler version 2.35 (riscv64-unknown-elf) using BFD version (SiFive Binutils-Metal 2.35.0-2020.12.8) 2.35]
+  ignore line: [COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  ignore line: [[2/2] Linking CXX executable cmTC_39644]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/riscv64_gcc_sifive/bin/riscv64-unknown-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/build/riscv64-unknown-elf-gcc/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-linux-gnu --prefix=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14 --with-pkgversion='SiFive GCC-Metal 10.2.0-2020.12.8' --with-bugurl=https://github.com/sifive/freedom-tools/issues --disable-shared --disable-threads --enable-languages=c c++ --enable-tls --with-newlib --with-sysroot=/scratch/jenkins/workspace/tpp-freedom-tools/tpp03--build-binary-packages--parameterized/obj/x86_64-linux-ubuntu14/install/riscv64-unknown-elf-gcc-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../riscv-gcc --with-system-zlib --enable-checking=yes --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc CFLAGS=-O2 CXXFLAGS=-O2 'CFLAGS_FOR_TARGET=-Os -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -mcmodel=medany']
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (SiFive GCC-Metal 10.2.0-2020.12.8) ]
+  ignore line: [COMPILER_PATH=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/:/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/:/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39644' '-march=rv64imafdc' '-mabi=lp64d' '-march=rv64imafdc']
+  link line: [ /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/collect2 -plugin /usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/liblto_plugin.so -plugin-opt=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGuDeoy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_39644 /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0 -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc -L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib -L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc /usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/riscv64_gcc_sifive/bin/../libexec/gcc/riscv64-unknown-elf/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGuDeoy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_39644] ==> ignore
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o] ==> obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o]
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o] ==> obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib]
+    arg [-L/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib] ==> dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib]
+    arg [CMakeFiles/cmTC_39644.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o] ==> obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+  collapse obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o]
+  collapse obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o]
+  collapse obj [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib/rv64imafdc/lp64d] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc] ==> [/usr/bin/riscv64_gcc_sifive/lib/gcc]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../lib/gcc/riscv64-unknown-elf/10.2.0/../../../../riscv64-unknown-elf/lib] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib]
+  collapse library dir [/usr/bin/riscv64_gcc_sifive/bin/../riscv64-unknown-elf/lib] ==> [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib]
+  implicit libs: [stdc++;m;gcc;c;gloss;gcc]
+  implicit objs: [/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d/crt0.o;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtbegin.o;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d/crtend.o]
+  implicit dirs: [/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0/rv64imafdc/lp64d;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib/rv64imafdc/lp64d;/usr/bin/riscv64_gcc_sifive/lib/gcc/riscv64-unknown-elf/10.2.0;/usr/bin/riscv64_gcc_sifive/lib/gcc;/usr/bin/riscv64_gcc_sifive/riscv64-unknown-elf/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS succeeded with the following output:
+Change Dir: /home/jatsekku/Documents/ot-bl702/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_74de9 && [1/2] Building C object CMakeFiles/cmTC_74de9.dir/src.c.obj
+[2/2] Linking C executable cmTC_74de9
+
+
+Source file was:
+int main(void) { return 0; }
